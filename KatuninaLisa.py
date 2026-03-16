@@ -28,7 +28,7 @@ def analyze_text(text):
     print("\nЧастота слов:")
     
     # Сортировка слов по частоте
-    for word in sorted(word_count, key=word_count.get, reverse=True):
+    for word in sorted(word_count, key=word_count.get, reverse=False):
         print(f"{word}: {word_count[word]}")
 
 
